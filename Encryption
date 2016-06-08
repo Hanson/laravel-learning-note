@@ -76,7 +76,7 @@ public function encrypt($value)
 
 发现`random_bytes`居然是php7的方法，那运行在PHP5不就报错了吗？
 
-然而，laravel也帮你处理好了，在vendor引入的`paragonie/random_compat`中已经包含了此函数，方便兼容php5以及php7
+然而，laravel也帮你处理好了，在vendor引入的`paragonie/random_compat`中已经包含了此函数，方便兼容php5以及php7<https://github.com/laravel/framework/issues/11448>
 
 接下来就是用[openssl_encrypt](http://php.net/manual/zh/function.openssl-encrypt.php)进行加密、[hash_hmac](http://php.net/manual/zh/function.hash-hmac.php)加密以及base64_encode，这里就不做详细讲解，核心函数已列出具体请自行查询
 
