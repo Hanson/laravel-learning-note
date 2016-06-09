@@ -1,4 +1,4 @@
-# laravel Encryption 详解
+# Encryption
 
 ## 简介
 Encryption是laravel自带的一个加密模块，让我们先来看看文档说明
