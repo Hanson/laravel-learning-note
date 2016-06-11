@@ -1,0 +1,17 @@
+{
+    "name": "hanccc/container",
+    "require": {
+        "laravel/framework": "^5.2"
+    },
+    "authors": [
+        {
+            "name": "hanccc",
+            "email": "h@hanc.cc"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hanccc\\": "src/"
+        }
+    }
+}
