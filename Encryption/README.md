@@ -30,7 +30,7 @@ public function encrypt($value)
 $encrypt = new Illuminate\Encryption\Encrypter($key, $cipher);
 $encrypt->encrypt($value);
 ```
-咦？为什么不是静态方法？别急，这章我们下节在讲，此时你需要知道事实上laravel是调用了encrypt方法就行了
+咦？为什么不是静态方法？看这里 [facade 讲解](https://github.com/Hanccc/laravel-learning-note/tree/master/Facade)，此时你需要知道事实上laravel是调用了encrypt方法就行了
 
 ```
 public function __construct($key, $cipher = 'AES-128-CBC')
